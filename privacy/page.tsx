@@ -44,7 +44,7 @@ export default function PrivacyPage() {
         <Section title="3. How we collect it">
           You enter the information directly into the form. Submissions
           are sent to a server we operate, which forwards them to a
-          private Google Sheet we control. We do not use third-party
+          private database we control. We do not use third-party
           analytics, advertising trackers, or cookies on the waitlist
           page beyond what the platform requires to serve the page itself.
         </Section>
@@ -68,7 +68,7 @@ export default function PrivacyPage() {
         </Section>
 
         <Section title="5. Who can see it">
-          Access to the Google Sheet is limited to the small group of
+          Access to the internal database is limited to the small group of
           students building HRide. We do not sell, rent, or share your
           information with advertisers, data brokers, or any third party
           unrelated to HRide. We may share aggregated, non-identifying
@@ -77,7 +77,7 @@ export default function PrivacyPage() {
         </Section>
 
         <Section title="6. Where it lives">
-          The form data is stored in Google Workspace (Google Sheets). Our
+          The form data is stored in Google Workspace. Our
           waitlist server runs on standard hosting infrastructure
           (Vercel). Both providers maintain industry-standard security
           practices. No system is perfectly secure — by using the form,
@@ -87,7 +87,7 @@ export default function PrivacyPage() {
         <Section title="7. How long we keep it">
           We keep your submission until you ask us to delete it, or until
           24 months after the HRide app launches publicly — whichever
-          comes first. After that, the row is removed from the sheet.
+          comes first. After that, the row is removed from the database.
         </Section>
 
         <Section title="8. Your choices">
